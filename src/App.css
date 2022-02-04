@@ -45,7 +45,7 @@ h1{
 }
 
 .todo-button {
-    padding: 16px;
+    padding: 17px;
     cursor: pointer;
     border: none;
     background:#02d9ff;
@@ -99,14 +99,15 @@ h1{
     cursor: pointer;
     font-size: 25px;
 }
+
 .delete-icon{
     margin-right: 2px;
 }
+
 .check-mark{
     margin-right: 6px;
-    opacity: 0.4;
 }
 
-.complete .check-mark{
-    opacity: 1;
-} 
+.todo-row.complete{
+    opacity: 0.4;
+}

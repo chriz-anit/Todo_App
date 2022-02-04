@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import TodoBox from './TodoBox'
-import {BsFillCheckSquareFill} from 'react-icons/bs'
+import {AiOutlineCheckSquare} from 'react-icons/ai'
 import {RiCloseCircleLine} from 'react-icons/ri'
 import {TiEdit} from 'react-icons/ti'
 
@@ -26,7 +26,7 @@ function Todo({todos, completeTodo, removeTodo, updateTodo}){
                 {todo.text}
             </div>
             <div className='icons'>
-                <BsFillCheckSquareFill
+                <AiOutlineCheckSquare
                 onClick={() => completeTodo(todo.id)}
                 className="check-mark"/>
                 <RiCloseCircleLine
