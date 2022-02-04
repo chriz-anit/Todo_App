@@ -76,7 +76,8 @@ h1{
     background: linear-gradient(
     90deg,
     #0285ff 0%,
-    #02d9ff 70%
+    #02d9ff 50%,
+    #0285ff 100%
     );
     padding: 13px;
     border-radius: 5px;
@@ -89,7 +90,8 @@ h1{
     background: linear-gradient(
       90deg,
       #53be38 0%,
-      #b5f547 100%
+      #b5f547 50%,
+      #53be38 100%
     );
   }
   
@@ -109,5 +111,5 @@ h1{
 }
 
 .todo-row.complete{
-    opacity: 0.4;
+    opacity: 0.27;
 }
