@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    transition: all .2s linear;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: #000000;
+}
+
+.todo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Quintessential', cursive;
+    background: -webkit-linear-gradient(
+        left,
+        #02d9ff 0%,
+        #b5f547 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #02d9ff;
+    outline: none;
+    width: 40%;
+    background: transparent;
+    color: #ffff;
+    font-size: large;
+}
+
+.todo-input::placeholder {
+    color: #ffffffc5;
+    font-size: 15px;
+}
+
+.todo-button {
+    padding: 16px;
+    cursor: pointer;
+    border: none;
+    background:#02d9ff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.todo-button.edit{
+    background:#ff02ff;
+}
+
+.todo-input.edit::placeholder {
+    color: #ffffffc5;
+}
+
+.todo-input.edit {
+    border: 2px solid #ff02ff;
+    color: #ffff;
+  }
+
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    color: #fff;
+    background: linear-gradient(
+    90deg,
+    #0285ff 0%,
+    #02d9ff 70%
+    );
+    padding: 13px;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.todo-row:nth-child(2n + 1) {
+    background: linear-gradient(
+      90deg,
+      #53be38 0%,
+      #b5f547 100%
+    );
+  }
+  
+
+.icons{
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+.delete-icon{
+    margin-right: 2px;
+}
+.check-mark{
+    margin-right: 6px;
+    opacity: 0.4;
+}
+
+.complete .check-mark{
+    opacity: 1;
+} 
