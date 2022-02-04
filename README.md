@@ -1,6 +1,5 @@
-A Todo List App
-Possible to: 
-    Add todos
-    Edit todos
-    Delete todos
-    Mark completed todos
+A Todo List App in which functions such as: 
+->Add todos
+->Edit todos
+->Delete todos
+->Mark completed todos
