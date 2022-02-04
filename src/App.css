@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 *{
@@ -21,10 +21,11 @@ body{
 
 h1{
     font-size: 4rem;
-    font-family: 'Quintessential', cursive;
+    font-family: 'Montserrat', sans-serif;
     color: #ffff;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .todo-input {
@@ -35,7 +36,7 @@ h1{
     width: 40%;
     background: transparent;
     color: #ffff;
-    font-size: large;
+    font-size: 20px;
 }
 
 .todo-input::placeholder {
@@ -80,7 +81,7 @@ h1{
     padding: 13px;
     border-radius: 5px;
     width: 50%;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: normal;
 }
 
